@@ -1,0 +1,6 @@
+/Proje_Dosyalari/
+/online_shoppers_intention.csv
+*.arff
+*.jar
+.ipynb_checkpoints/
+__pycache__/
