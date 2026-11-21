@@ -16,10 +16,21 @@ Konu 9.5. Satın almayla biten oturumları, gezinme bilgileriyle ayırmayı dene
 
 Colab'da **Çalışma zamanı → Tümünü çalıştır** yeterli. Defter, CSV'yi bulamazsa UCI'dan indiriyor. Bağlantı özel depo nedeniyle açılmazsa defteri indirip Colab'a yükleyebilirsiniz. Yerelde Weka için Java gerekiyor.
 
+## Depo yapısı
+
+- `README.md` proje özeti
+- `proje1/BIL545_Proje1_EmircanDemir.ipynb` Proje 1 defteri
+
 ## Bölüm 1 sonucu
 
 5 katlı çapraz doğrulamayı 5 kez tekrarladım. Bu deneyde Dummy **0,1564 ± 0,0002**, lojistik regresyon **0,2998 ± 0,0183** AP verdi. *PageValues* eklenince AP **0,6374 ± 0,0212** oldu. Değerin ne zaman hesaplandığını bilmediğim için ana modele almadım. Weka'da J48, 10 katlı kontrolde **0,2430 ± 0,0283** AP verdi.
 
 ## Katkı ve yapay zekâ beyanı
 
-Konuyu ve veriyi ben seçtim. Sunumda eksiklik, sızıntı ve Weka sonuçlarını anlatmayı planlıyorum. Kod, deneylerin çalıştırılması ve yazıların düzenlenmesinde OpenAI Codex'ten yardım aldım. Kaynaklar defterin sonunda.
+Konuyu ve veriyi ben seçtim. Sunumda eksiklik, sızıntı ve Weka sonuçlarını anlatmayı planlıyorum. Kod, deneylerin çalıştırılması ve yazıların düzenlenmesinde OpenAI Codex'ten yardım aldım.
+
+## Kaynaklar
+
+- [Sakar ve Kastro (2018), UCI veri seti](https://doi.org/10.24432/C5F88Q)
+- [Sakar vd. (2019), satın alma niyeti çalışması](https://doi.org/10.1007/s00521-018-3523-0)
+- [Kaufman vd. (2012), veri madenciliğinde sızıntı](https://doi.org/10.1145/2382577.2382579)
