@@ -44,6 +44,8 @@ Bölüm 2'de 12.330 oturumun tamamı ve *PageValues* dışındaki 16 öznitelik 
 | Sızıntı deneyi, satın almaları yalnız eğitimden kopyalama | 0,3238 ± 0,0136 |
 | Sızıntı deneyi, satın almaları tüm veriden kopyalama (yanlış) | 0,3317 ± 0,0148 |
 
+İlk beş katta rastgele ormanın AP'si doğru örneklemede **0,3596 ± 0,0132**, hatalı örneklemede **0,9828 ± 0,0039** oldu.
+
 *PageValues* eklenince AP **0,6412 ± 0,0219** oldu. Değerin hangi dönemin işlemlerinden hesaplandığını bilmediğim için ana modele almadım. Weka'da J48'in 10 kat AP'si **0,2723 ± 0,0331**.
 
 ## Katkı ve yapay zekâ beyanı
