@@ -32,7 +32,7 @@ Bölüm 2'de 12.330 oturumun tamamı ve *PageValues* dışındaki 16 öznitelik 
 
 ## Çalıştırma
 
-[Colab'da aç](https://colab.research.google.com/github/EmircanDemirTR/bil545-online-alisveris/blob/main/proje1/BIL545_Proje1_EmircanDemir.ipynb) ve **Çalışma zamanı → Tümünü çalıştır** seçeneğini kullan. CSV bulunmazsa defter UCI'dan indiriyor. Özel depo bağlantısı açılmazsa defter indirilip Colab'a yüklenebilir. Yerelde Weka için Java gerekiyor.
+[Colab'da aç](https://colab.research.google.com/github/EmircanDemirTR/bil545-online-alisveris/blob/main/proje1/BIL545_Proje1_EmircanDemir.ipynb) ve **Çalışma zamanı → Tümünü çalıştır** seçeneğini kullan. CSV bulunmazsa defter UCI'dan indiriyor. Bağlantı açılmazsa defter indirilebilir ve Colab'a yüklenebilir. Yerelde Weka için Java gerekiyor.
 
 ## Sonuç özeti
 
