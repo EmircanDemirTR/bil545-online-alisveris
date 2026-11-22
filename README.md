@@ -54,7 +54,7 @@ Kayıtlı çıktılar Colab çalıştırmasından. Colab tabloları veya grafikl
 
 ### Bölüm 2
 
-Geliştirme verisindeki 5 kat × 5 tekrarda rastgele orman **0,3820 ± 0,0211**, gradyan artırma **0,3744 ± 0,0214** AP aldı. Ayrı tuttuğum 2.466 oturumda varsayılan eşikteki hata oranları arasında anlamlı fark çıkmadı (McNemar, *p* = 0,7914). En yüksek ortalama AP'yi aldığı için Proje 2'ye rastgele ormanı aktardım.
+Geliştirme verisindeki 5 kat × 5 tekrarda rastgele orman **0,3820 ± 0,0211**, gradyan artırma **0,3744 ± 0,0214** AP aldı. Ayrı tuttuğum 2.466 oturumda varsayılan eşikteki hata oranları arasında anlamlı fark çıkmadı (McNemar, *p* = 0,7914). 5×2 AP karşılaştırmasında birleşik F testi de %5 düzeyinde anlamlı fark göstermedi (*p* = 0,0938). En yüksek ortalama AP'yi aldığı için Proje 2'ye rastgele ormanı aktardım.
 
 Aktarım için seçilen karar eşiği **0,2314**. Eşiği geliştirme tahminlerinden seçtim ve tam değerini *p1_protokol.json* dosyasına kaydettim.
 
