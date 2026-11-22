@@ -23,7 +23,7 @@ Konu 9.5. Tamamlanmış bir oturumun gezinme özeti, satın almayla biten oturum
 | Boyut | 12.330 oturum ve 17 öznitelik |
 | Hedef | *Revenue*, oturumda satın alma olup olmadığı |
 
-Bölüm 2'de 12.330 oturumun tamamı ve *PageValues* dışındaki 16 öznitelik kullanılacak.
+Bölüm 2'de 12.330 oturumu ve *PageValues* dışındaki 16 özniteliği kullandım.
 
 ## Depo yapısı
 
@@ -32,9 +32,11 @@ Bölüm 2'de 12.330 oturumun tamamı ve *PageValues* dışındaki 16 öznitelik 
 
 ## Çalıştırma
 
-[Colab'da aç](https://colab.research.google.com/github/EmircanDemirTR/bil545-online-alisveris/blob/main/proje1/BIL545_Proje1_EmircanDemir.ipynb) ve **Çalışma zamanı → Tümünü çalıştır** seçeneğini kullan. CSV bulunmazsa defter UCI'dan indiriyor. Bağlantı açılmazsa defter indirilebilir ve Colab'a yüklenebilir. Yerelde Weka için Java gerekiyor.
+[Colab'da aç](https://colab.research.google.com/github/EmircanDemirTR/bil545-online-alisveris/blob/main/proje1/BIL545_Proje1_EmircanDemir.ipynb) ve **Çalışma zamanı → Tümünü çalıştır** seçeneğini kullan. CSV bulunmazsa defter UCI'dan indiriyor. Bağlantı açılmazsa defter indirilebilir ve Colab'a yüklenebilir. Yerelde Weka için Java gerekiyor. 2.5 hücresi temiz CSV'yi, model hattını ve deney ayarlarını *p1_ciktilar* klasörüne kaydediyor.
 
 ## Sonuç özeti
+
+### Bölüm 1
 
 | 5 kat × 5 tekrar | AP (ortalama ± std) |
 |---|---:|
@@ -48,12 +50,17 @@ Bölüm 2'de 12.330 oturumun tamamı ve *PageValues* dışındaki 16 öznitelik 
 
 *PageValues* eklenince AP **0,6412 ± 0,0219** oldu. Değerin hangi dönemin işlemlerinden hesaplandığını bilmediğim için ana modele almadım. Weka'da J48'in 10 kat AP'si **0,2723 ± 0,0331**.
 
+### Bölüm 2
+
+Geliştirme verisindeki 5 kat × 5 tekrarda rastgele orman **0,3820 ± 0,0211**, gradyan artırma **0,3730 ± 0,0191** AP aldı. Ayrı tuttuğum 2.466 oturumda varsayılan eşikteki hata oranları arasında anlamlı fark çıkmadı (McNemar, *p* = 0,7877). En yüksek ortalama AP'yi aldığı için Proje 2'ye rastgele ormanı aktardım.
+
 ## Katkı ve yapay zekâ beyanı
 
-Konuyu ve veriyi ben seçtim. Sunumda eksiklik, sızıntı ve Weka sonuçlarını anlatmayı planlıyorum. Kod, deneylerin çalıştırılması ve yazıların düzenlenmesinde OpenAI Codex'ten yardım aldım.
+Konuyu ve veriyi ben seçtim. Sunumda sızıntı deneyini, AP seçimini ve Bölüm 2.3–2.4 sonuçlarını anlatmayı planlıyorum. Kod, deneylerin çalıştırılması ve yazıların düzenlenmesinde OpenAI Codex'ten yardım aldım.
 
 ## Kaynaklar
 
 - [Sakar ve Kastro (2018), UCI veri seti](https://doi.org/10.24432/C5F88Q)
 - [Sakar vd. (2019), satın alma niyeti çalışması](https://doi.org/10.1007/s00521-018-3523-0)
 - [Kaufman vd. (2012), veri madenciliğinde sızıntı](https://doi.org/10.1145/2382577.2382579)
+- [Dietterich (1998), sınıflandırma yöntemlerini karşılaştıran testler](https://doi.org/10.1162/089976698300017197)
