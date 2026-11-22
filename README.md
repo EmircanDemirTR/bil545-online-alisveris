@@ -34,6 +34,8 @@ Bölüm 2'de 12.330 oturumu ve *PageValues* dışındaki 16 özniteliği kulland
 
 [Colab'da aç](https://colab.research.google.com/github/EmircanDemirTR/bil545-online-alisveris/blob/main/proje1/BIL545_Proje1_EmircanDemir.ipynb) ve **Çalışma zamanı → Tümünü çalıştır** seçeneğini kullan. CSV bulunmazsa defter UCI'dan indiriyor. Bağlantı açılmazsa defter indirilebilir ve Colab'a yüklenebilir. Yerelde scikit-learn 1.6.1 ve Weka için Java gerekiyor. 2.5 hücresi temiz CSV'yi, model hattını ve deney ayarlarını *p1_ciktilar* klasörüne kaydediyor.
 
+Kayıtlı çıktılar Colab çalıştırmasından. Colab tabloları veya grafikleri açamazsa defterin [GitHub önizlemesi](proje1/BIL545_Proje1_EmircanDemir.ipynb) kullanılabilir. [Colab'ın çıktı ve çerez açıklaması](https://research.google.com/colaboratory/faq.html)
+
 ## Sonuç özeti
 
 ### Bölüm 1
