@@ -54,6 +54,8 @@ Bölüm 2'de 12.330 oturumu ve *PageValues* dışındaki 16 özniteliği kulland
 
 Geliştirme verisindeki 5 kat × 5 tekrarda rastgele orman **0,3820 ± 0,0211**, gradyan artırma **0,3730 ± 0,0191** AP aldı. Ayrı tuttuğum 2.466 oturumda varsayılan eşikteki hata oranları arasında anlamlı fark çıkmadı (McNemar, *p* = 0,7877). En yüksek ortalama AP'yi aldığı için Proje 2'ye rastgele ormanı aktardım.
 
+Bunlar kayıtlı yerel sonuçlar. Colab'da defter baştan sona çalıştı. Orman ilk sırada kaldı ve McNemar testi yine anlamlı fark göstermedi.
+
 ## Katkı ve yapay zekâ beyanı
 
 Konuyu ve veriyi ben seçtim. Sunumda sızıntı deneyini, AP seçimini ve Bölüm 2.3–2.4 sonuçlarını anlatmayı planlıyorum. Kod, deneylerin çalıştırılması ve yazıların düzenlenmesinde OpenAI Codex'ten yardım aldım.
