@@ -32,7 +32,7 @@ Bölüm 2'de 12.330 oturumu ve *PageValues* dışındaki 16 özniteliği kulland
 
 ## Çalıştırma
 
-[Colab'da aç](https://colab.research.google.com/github/EmircanDemirTR/bil545-online-alisveris/blob/main/proje1/BIL545_Proje1_EmircanDemir.ipynb) ve **Çalışma zamanı → Tümünü çalıştır** seçeneğini kullan. CSV bulunmazsa defter UCI'dan indiriyor. Bağlantı açılmazsa defter indirilebilir ve Colab'a yüklenebilir. Yerelde Weka için Java gerekiyor. 2.5 hücresi temiz CSV'yi, model hattını ve deney ayarlarını *p1_ciktilar* klasörüne kaydediyor.
+[Colab'da aç](https://colab.research.google.com/github/EmircanDemirTR/bil545-online-alisveris/blob/main/proje1/BIL545_Proje1_EmircanDemir.ipynb) ve **Çalışma zamanı → Tümünü çalıştır** seçeneğini kullan. CSV bulunmazsa defter UCI'dan indiriyor. Bağlantı açılmazsa defter indirilebilir ve Colab'a yüklenebilir. Yerelde scikit-learn 1.6.1 ve Weka için Java gerekiyor. 2.5 hücresi temiz CSV'yi, model hattını ve deney ayarlarını *p1_ciktilar* klasörüne kaydediyor.
 
 ## Sonuç özeti
 
@@ -52,9 +52,9 @@ Bölüm 2'de 12.330 oturumu ve *PageValues* dışındaki 16 özniteliği kulland
 
 ### Bölüm 2
 
-Geliştirme verisindeki 5 kat × 5 tekrarda rastgele orman **0,3820 ± 0,0211**, gradyan artırma **0,3730 ± 0,0191** AP aldı. Ayrı tuttuğum 2.466 oturumda varsayılan eşikteki hata oranları arasında anlamlı fark çıkmadı (McNemar, *p* = 0,7877). En yüksek ortalama AP'yi aldığı için Proje 2'ye rastgele ormanı aktardım.
+Geliştirme verisindeki 5 kat × 5 tekrarda rastgele orman **0,3820 ± 0,0211**, gradyan artırma **0,3744 ± 0,0214** AP aldı. Ayrı tuttuğum 2.466 oturumda varsayılan eşikteki hata oranları arasında anlamlı fark çıkmadı (McNemar, *p* = 0,7914). En yüksek ortalama AP'yi aldığı için Proje 2'ye rastgele ormanı aktardım.
 
-Bunlar kayıtlı yerel sonuçlar. Colab'da defter baştan sona çalıştı. Orman ilk sırada kaldı ve McNemar testi yine anlamlı fark göstermedi.
+Aktarım için seçilen karar eşiği **0,2314**. Eşiği geliştirme tahminlerinden seçtim ve tam değerini *p1_protokol.json* dosyasına kaydettim.
 
 ## Katkı ve yapay zekâ beyanı
 
